@@ -16,9 +16,25 @@ public class Strings_Arrays {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String myString = "Hello";        
-        String[] arrayOfStrings = {"A","B","C","D","E"};
+        
+        //Create a String
+        String myString = "Hello";
+        
+        //Create a String array
+        String[] arrayOfStrings = {"Juan","María","Ana","Andres","Juan#"};
+        
+        //Print out an element of a String Array
         System.out.println(arrayOfStrings[0]);
+        
+        //Length of an array
+        int howManyElementsInTheArray = arrayOfStrings.length;
+        System.out.println(howManyElementsInTheArray);
+        
+        myString = arrayOfStrings[arrayOfStrings.length];
+        
+        
+        
+        
     }
     
 }
