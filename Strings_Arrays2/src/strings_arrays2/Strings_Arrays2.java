@@ -18,7 +18,7 @@ public class Strings_Arrays2 {
         // TODO code application logic here
         
         String[] arrayOfMen = {"Andres","Juan","Pedro","Mario","Pepe"};
-        String[] arrayOfWomen = {"Juana","Laura","Andrea","Erika","Penelope"};
+        String[] arrayOfWomen = {"Juana","Laura","Andrea","Erika","Penelope2"};
         
         
         for(int i=0;i<arrayOfMen.length;i++){
