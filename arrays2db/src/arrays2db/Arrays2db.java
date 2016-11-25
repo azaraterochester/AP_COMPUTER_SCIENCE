@@ -14,13 +14,22 @@ public class Arrays2db {
             {60.0,90.0,100.0,70.0}
         
         };
-        
+        //Show all elements in the 2d Array
         for(int i = 0; i < studentGrades.length; i++){
             for(int j = 0; j< studentGrades[i].length;j++){
                 System.out.print("\t"+studentGrades[i][j]);
             }
             System.out.println();
         }
+        
+        //Calculate average of each row
+        for(int i = 0; i < studentGrades.length; i++){
+            calculator myCalculator = new calculator();
+            double average = myCalculator.average(studentGrades[i]);
+            System.out.println(average);
+        }
+        
+ 
         
     }
     
